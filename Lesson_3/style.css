@@ -1,0 +1,10 @@
+td {
+    border: 1px solid blueviolet;
+}
+table { background: rgb(46,227,184);
+    background: linear-gradient(90deg, rgba(46,227,184,1) 12%, rgba(68,140,209,1) 27%, rgba(203,0,108,1) 100%);
+}
+img {
+weight: 50px;
+height: 50px;
+}

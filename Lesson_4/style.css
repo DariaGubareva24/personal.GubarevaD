@@ -10,7 +10,13 @@
     text-align: center;
 }
 
-ul {
+.table1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.table2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,4 +24,43 @@ ul {
 
 .main {
     text-align: center
+}
+
+.list1 {
+    color: red
+}
+
+.list2 {
+    color: blue
+}
+
+.list3 {
+    color: green
+}
+
+.list4 {
+    color: purple
+}
+
+.list5 {
+    color: black
+}
+
+.box {
+    background-color: rgb(134, 160, 238);
+    padding: 20px;
+    margin: 10px;
+}
+
+.box .box2 {
+    background-color: rgb(190, 149, 255);
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: -5px -5px 15px 2px rgba(63, 99, 208, 0.25) inset;
+-moz-box-shadow: -5px -5px 15px 2px rgba(63, 99, 208, 0.25) inset;
+box-shadow: -5px -5px 15px 2px rgba(63, 99, 208, 0.25) inset;
 }

@@ -1,0 +1,122 @@
+.box {
+    position: relative;
+    height: 300px;
+    width: 500px; 
+    display: block;
+    background-color: LightCoral;
+    display: none;
+}
+.box2 {
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    background-color: OliveDrab;
+    margin-left: 20%;
+    margin-top: 8%;
+    display: none;
+}
+.box3 {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    background-color: gold;
+   left: 30%;
+    top: 36%;
+    display: none;
+}
+.box4 {
+background-color:  rgb(103, 59, 153);
+}
+.box5 {
+background-color: rgb(70, 134, 134);
+}
+.box6 {
+background-color:rgb(145, 192, 68);
+}
+.wrapper div {
+    height: 100px;
+}
+.wrapper {
+    width: 500px;
+}
+.box7 {
+    background-color: rgb(243, 99, 55);
+     width: 12%;
+}
+.box8 {
+background-color: rgb(255, 214, 30);
+   width: 12%;
+}
+.box9 {
+    background-color: olivedrab;
+    width: 13%;
+}
+.box10 {
+    background-color: orangered;
+    height: 100px;
+    width: 37%;
+}
+.wrapper3 div {
+    display: inline-block;
+    height: 100px;
+}
+.box11 {
+    background-color: rgb(255, 233, 32);
+    width: 18.5%;
+}
+.box12 {
+    background-color: rgb(196, 255, 32);
+    width: 18.5%;
+}
+.wrapper2 div {
+    display: inline-block;
+    height: 100px;
+}
+.wrapper2 {
+    font-size: 0;
+}
+.parent {
+    background-color: rgb(103, 59, 153);
+    height: 100px;
+    width: 37%;
+}
+.child1 {
+    background-color: rgb(255, 214, 30);
+    height: 90px;
+    width: 17%;
+}
+.child2 {
+    background-color: rgb(153, 233, 226);
+    height: 90px;
+    width: 17%;
+}
+.child3 {
+    background-color: rgb(224, 176, 238);
+    height: 90px;
+    width: 17%;
+}
+.parent  {
+    padding: 20px;
+}
+.parent div {
+    display: inline-block;
+    margin: 25px;
+}
+
+
+.parent1 {
+    border: solid 3px black;
+    padding: 20px;WEFWREFDFVSDACQEWD: 23WE;W3
+    display: flex;
+flex-wrap: wrap;
+row-gap: 20px;
+column-gap: 50px;
+}
+.parent1 .child4, .parent1 .child5, .parent1 .child6 {
+    border: solid 3px black;
+    height: 50px;
+    min-width: 100px;
+}
+.parent1.flex-column {
+flex-direction: column;
+}

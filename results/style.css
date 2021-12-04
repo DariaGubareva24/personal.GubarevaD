@@ -1,0 +1,24 @@
+.title {
+    font-weight: bold;
+    text-align: center;
+}
+.subtext {
+   color: rgb(135, 151, 168);
+   text-align: center;
+}
+.lessons {
+    font-weight: bold;
+}
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+.box {
+display: inline-block;
+-webkit-box-shadow: 3px 3px 24px 3px rgba(61, 106, 126, 0.6) inset;
+-moz-box-shadow: 3px 3px 24px 3px rgba(61, 106, 126, 0.6) inset;
+box-shadow: 3px 3px 24px 3px rgba(61, 106, 126, 0.6) inset;
+height: 150px;
+width: 300px;
+padding: 20px;
+margin: 5px;
+}

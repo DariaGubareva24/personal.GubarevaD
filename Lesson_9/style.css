@@ -1,0 +1,48 @@
+ body {
+background-color: black;
+ }
+ .logo-photo {
+    position: relative;
+}
+
+.logo-text {
+    position: absolute;
+    width: 134px;
+    height: 56px;
+    left: 202px;
+    top: 46px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 37px;
+    position: relative;
+    left: 50px;
+    top: -7px;
+    color: white;
+}
+
+.photo1 {
+    position: absolute;
+    left: 0px;
+    top: 25px;
+}
+
+.photo2 {
+    position: absolute;
+    left: 0px;
+    top: 1px;
+}
+
+.photo3 {
+    position: absolute;
+    left: 28px;
+    top: 25px;
+}
+
+.container {
+    max-width: 1640px;
+    margin: 0 auto;
+}
+.link {
+    text-decoration: none;
+}

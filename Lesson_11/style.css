@@ -1,0 +1,124 @@
+body {
+    font-family: 'Red Hat Display';
+    background-color: #F9F6F5;
+
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration-line: underline;
+}
+
+ul {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    list-style: none;
+    display: flex;
+    column-gap: 40px;
+margin-top: 45px;
+}
+
+.icons {
+    display: flex;
+    column-gap: 30px;
+}
+
+.wrapper {
+    max-width: 621px;
+}
+
+.bold-text1 {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 70px;
+    display: flex;
+}
+
+.img4 {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.hero-flex {
+    display: flex;
+    position: relative;
+}
+
+#section2 {
+    margin-top: 73px;
+}
+
+.wrapper2 {
+    max-width: 516px;
+}
+
+.subtext {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+}
+
+
+.wrapper3 {
+    max-width: 326px;
+    position: relative;
+}
+
+.Search {
+    border: none;
+    width: 326px;
+    height: 48px;
+    padding-left: 16px;
+}
+
+.brounblock {
+    position: absolute;
+}
+
+.searchicon {
+    top: 8px;
+    right: 8px;
+    position: absolute;
+    background: #402F2C;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchicon img {
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.shopnowbutton {
+    min-width: 148px;
+    min-height: 56px;
+    background-color: #402F2C;
+    color: white;
+    border-style: none;
+    font-weight: 500;
+    margin-top: 60px;
+}

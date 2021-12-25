@@ -1,0 +1,101 @@
+.parent {
+    position: relative;
+    max-width: 550px;
+}
+
+.face {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(150, 127, 97);
+    border-radius: 50%;
+    border: 15px black solid;
+}
+
+.ear {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(150, 127, 97);
+    border-radius: 50%;
+    border: 15px black solid;
+    z-index: -1;
+}
+
+.eyebrow {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    background-color: black;
+    border-radius: 28%;
+    top: 200px;
+    left: 60px;
+}
+
+.eye {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    left: 110px;
+    top: 225px;
+}
+
+.mouth {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    border: 10px black solid;
+    top: 250px;
+    left: 190px;
+}
+
+.nose {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    top: 225px;
+    left: 240px;
+    z-index: 20;
+}
+
+
+
+.ear2 {
+    right: 10px;
+}
+
+.eyebrow2 {
+    left: 320px;
+}
+
+.eye2 {
+    left: 350px;
+}
+
+.mouth2 {
+    left: 260px;
+    z-index: 1;
+}
+.line {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    border-radius: 25%;
+    top: 284px;
+    left: 250px;
+    z-index: 20;
+}
+
+.ear1:hover~.eye.absolute-left {
+    top:232px;
+  }
+  .ear2:hover~.eye.absolute-right {
+    top: 232px;
+  }
